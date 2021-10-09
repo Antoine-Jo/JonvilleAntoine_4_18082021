@@ -11,6 +11,14 @@ body {
     font-size: 24px;
 }
 
+a:focus {
+    border: 4px outset black;
+}
+
+button:focus {
+    border: 4px outset black;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
